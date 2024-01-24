@@ -372,7 +372,7 @@ function updateParagraph() {
         changingSentence.replacementSentence = findNewSentence(replacementSentence);
       }
     }
-    setTimeout(updateLetters, 100 + Math.random(50));
+    setTimeout(updateLetters, 100);
   }
   updateLetters();
 }
