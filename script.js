@@ -1,41 +1,46 @@
 let sentenceLengths = {
-  '19': [ 'I want some cheese.' ],
-  '22': [ 'I want to sew a dress.' ],
   '23': [ 'I want to make a chair.' ],
   '25': [ 'I want to make spaghetti.' ],
-  '26': [ 'I should buy some flowers.' ],
   '27': [ 'I wish to be love abundant.' ],
-  '28': [ 'Foliage forecaster is a job.' ],
-  '29': [ 'The internet has weather too.' ],
-  '30': [ 'I am a fucking powerful witch.' ],
-  '31': [ 'My craving leads me to burrito.' ],
+  '29': [ 'I want to try to sew a dress.', 'The internet has weather too.' ],
+  '30': [
+    'I want some cheese and grapes.',
+    'I am a fucking powerful witch.'
+  ],
   '33': [
+    'My craving leads me to a burrito.',
     'Today I am not yet quite at love.',
     'This was a good week for the sky.'
   ],
-  '34': [ 'The sky feels like a Barbie movie.' ],
-  '35': [ 'I’m an emotionless brick sometimes.' ],
+  '36': [ 'I am an emotionless brick sometimes.' ],
   '37': [
+    'I should buy some flowers for myself.',
     'How do you know if you love somebody?',
-    'I feel really seen when I’m around E.'
+    'I feel really seen when I’m around E.',
+    'I think I have 5 big frogs right now.'
   ],
-  '39': [ 'I want to become intimate with a color.' ],
-  '40': [ 'I think I have five big frogs right now.' ],
+  '39': [
+    'Foliage forecaster is a an actual job!!',
+    'I want to become intimate with a color.'
+  ],
   '42': [
     'I listened to my joy (pink storage cubes).',
     'I want SOUP. What soups are in my arsenal.'
   ],
+  '44': [ 'The sky at sunset feels like a Barbie movie.' ],
   '48': [ 'Eavesdropped on the conversation in the kitchen.' ],
-  '49': [ 'I’ve been craving cream puffs since Thanksgiving.' ],
-  '52': [ 'I’m finally writing poetry again and I feel at home.' ],
   '54': [
+    'I’ve been craving mini cream puffs since Thanksgiving.',
     'Today I shall forgive myself for my unformed opinions.',
     'I think spending some time with me will be good today.'
   ],
   '55': [ 'To say I am present here with you is to say I love you.' ],
   '57': [ 'The most powerful thing I can do is cultivate a good gut.' ],
   '61': [ "If I spend a year like this, imagine where I'll be next year." ],
-  '62': [ 'Apparently I am not yet great at getting up early. That is ok.' ],
+  '62': [
+    'I’m finally writing poetry again and I feel extremely at home.',
+    'Apparently I am not yet great at getting up early. That is ok.'
+  ],
   '64': [
     'How would I act if I really cared about the things I said I did!',
     'Got that vegan burger for lunch, slept, and got the potato gift.'
@@ -64,6 +69,9 @@ let sentenceLengths = {
   '79': [
     'I’m feeling so lucky and full of love, I am filled to the brim and overflowing.'
   ],
+  '80': [
+    'I want to flirt by saying I think you and I could make beautiful zines together.'
+  ],
   '81': [
     "I think I have a better grasp of what I’m doing but I still feel like I'm behind."
   ],
@@ -86,9 +94,6 @@ let sentenceLengths = {
   '87': [
     "There's something about walking through a city crying at night. therapeutic? Revealing?"
   ],
-  '89': [
-    'I downloaded a book on dandelions on a whim. I didn’t have the time to read it but I did.'
-  ],
   '91': [
     'I’m convinced this keylime cheesecake can make any man fall in love with me. Any woman too.'
   ],
@@ -96,12 +101,12 @@ let sentenceLengths = {
     'Made dinner, annotated all 1000 sentences, and met with B. She is more lost than me I think.',
     'I’m feeling great! The sun has graced us all week and I think that I could have a life here.'
   ],
-  '93': [
-    'My preferred way of flirting is saying I think you and I could make beautiful zines together.'
-  ],
   '94': [
     'The visi-sonor is one of the first items described in sci-fi that make me go… this feels good.',
     'Interview and the person didn’t smile I have no idea what to do with the ones who don’t smile.'
+  ],
+  '96': [
+    'I downloaded a book on dandelions on a whim. I didn’t have the time to read it but I did anyway.'
   ],
   '98': [
     'M is coming over to work today but I really just want to watch the new episode that just came out.'
@@ -141,7 +146,7 @@ let sentenceLengths = {
     "How much my life would improve if I didn't get so car sick. What other bits of my life would have this much impact?"
   ],
   '117': [
-    'Nike was ok. It was nice to be w a group though I realized that when I walk I prefer to stay silent and enjoy myself.'
+    'Bike was ok. It was nice to be w a group though I realized that when I walk I prefer to stay silent and enjoy myself.'
   ],
   '119': [
     'Today I saw a new sunflower patch in the middle of the sidewalk on Hampshire. I have no idea how it appeared overnight.'
@@ -204,7 +209,7 @@ let sentenceLengths = {
     'Received a letter from A today and I felt my heart burst. I feel so warm but now the pressure to send a letter back soon is even greater. This feels so much better than texting.'
   ],
   '181': [
-    'Just read an article that said if you have to swallow a frog today, do it first thing. If you have two, swallow the biggest frog first, and I love that phrasing! What is my frog rn?',
+    'Just read an article that said if you have to swallow a frog today, do it first thing. If you have two, swallow the biggest frog first, and I love that phrasing. What is my frog rn?',
     'Funny how with any journaling, I always come out with actionables. Things I can do and if nothing else that is a reason to keep writing. I have so many loves that have been subdued.'
   ],
   '183': [
@@ -241,16 +246,14 @@ let sentenceLengths = {
     'What would it be like to nurture a project over time without deadline, without decay in excitement that leads to dread? To work on my own secret thing away from external pressures? To come home to it everyday knowing I’d never have to rush.'
   ],
   '269': [
-    'While the cheesecakes were baking N convinced me to start a new book and I did a warm eye compress. At some point when I was cleaning up my roommate walked in and asked if I was okay, it seemed like I had been in the kitchen for six hours. Just a casual thursday night.'
+    'While the cheesecakes were baking N convinced me to start a new book and I did a warm eye compress. At some point when I was cleaning up my roommate walked in and asked if I was okay, it seemed like I had been in the kitchen for six hours. just a casual thursday night.'
   ],
   '277': [
     "Summer in boston is magical. I've never seen things SO GREEN and the water so sparkly and I wouldn't be surprised if there were fairies all around us. I've been a bit in my own head this past week and forgotten to notice how the city was glowing around me. I forgot to breathe."
   ],
-  '327': [
-    'We skipped a whole summer here. I walked back the way from work - about an hour but more because I think I took a longer way. I decided to walk because I don’t like the way the trains feel except for when they’re completely empty but G called and I felt so bothered that I decided to walk it off and ended up crying it out too.'
-  ],
-  '330': [
-    "N did my tarot reading while I cooked and said I had no cup cards. I’m not driven by emotion right now. I should take a break or risk burnout, there is an abundance of creativity right now, I shouldn't stay in a job I dislike, and there will soon be a work/relationship situation where I'll have to stand my ground with my values."
+  '329': [
+    'We skipped a whole summer here. I walked back the way from work --- about an hour but more because I think I took a longer way. I decided to walk because I don’t like the way the trains feel except for when they’re completely empty but G called and I felt so bothered that I decided to walk it off and ended up crying it out too.',
+    "N did my tarot reading while I cooked and said I had no cup cards:I’m not driven by emotion right now. I should take a break or risk burnout, there is an abundance of creativity right now, I shouldn't stay in a job I dislike, and there will soon be a work/relationship situation where I'll have to stand my ground with my values."
   ]
 }
 
@@ -273,13 +276,13 @@ let sentences = [];
 let entryIndices = [];
 
 // populate sentences randomly
-for (let i = 0; i < 20; i++) {
-    let randomEntryIndex = Math.floor(Math.random() * entry.length);
-    let randomEntry = entry[randomEntryIndex];
-    if (!sentences.includes(randomEntry)) {
-        sentences.push(randomEntry);
-        entryIndices.push(randomEntryIndex);
-    }
+for (let i = 0; i < 22; i++) {
+  let randomEntryIndex = Math.floor(Math.random() * entry.length);
+  let randomEntry = entry[randomEntryIndex];
+  if (!sentences.includes(randomEntry)) {
+    sentences.push(randomEntry);
+    entryIndices.push(randomEntryIndex);
+  }
 }
 
 // set paragraph text
@@ -288,112 +291,89 @@ paragraphElement.textContent = sentences.join(" ");
 let changingSentences = [];
 
 function findNewSentence(current) {
-    let length = current.length;
+  let length = current.length;
 
-    let tries = 10;
-    while (tries > 0) {
-        let randomIndexInMatchingLengths = Math.floor(Math.random() * sentenceLengths[length].length);
-        let replacementSentence = sentenceLengths[length][randomIndexInMatchingLengths];
-        let replacementIndexInEntry = entry.indexOf(replacementSentence);
+  let tries = 10;
+  while (tries > 0) {
+    let randomIndexInMatchingLengths = Math.floor(Math.random() * sentenceLengths[length].length);
+    let replacementSentence = sentenceLengths[length][randomIndexInMatchingLengths];
+    let replacementIndexInEntry = entry.indexOf(replacementSentence);
 
-        if (!entryIndices.includes(replacementIndexInEntry)) {
-            return replacementSentence;
-        }
-        tries--;
+    if (!entryIndices.includes(replacementIndexInEntry)) {
+      return replacementSentence;
     }
-    return current;
+    tries--;
+  }
+  return current;
 }
 
 
 // Pick random sentences to change
-for (let i = 0; i < 14; i++) {
-    // pick a sentence to change
-    let indexToChange = Math.floor(Math.random() * sentences.length);
-    let sentenceToChange = sentences[indexToChange];
+for (let i = 0; i < 16; i++) {
+  // pick a sentence to change
+  let indexToChange = Math.floor(Math.random() * sentences.length);
+  let sentenceToChange = sentences[indexToChange];
 
-    let replacementSentence = findNewSentence(sentenceToChange);
+  let replacementSentence = findNewSentence(sentenceToChange);
 
-    if (replacementSentence) {
-        changingSentences.push({
-            indexInSentences: indexToChange,
-            currentLetterIndex: 0,
-            replacementSentence: replacementSentence
-        });
-    } else
-
-        if (randomSentence.length !== length) {
-            console.error(`Replacement sentence length (${replacementSentence.length}) does not match original sentence length (${sentence.length})`);
-        }
+  if (replacementSentence) {
+    changingSentences.push({
+      indexInSentences: indexToChange,
+      currentLetterIndex: 0,
+      replacementSentence: replacementSentence
+    });
+  }
 }
 
 
 
 function updateParagraph() {
-    // console.log("updating paragraph")
-    let updateLetters = () => {
-        for (let i = 0; i < changingSentences.length; i++) {
-            let changingSentence = changingSentences[i];
+  let updateLetters = () => {
+    for (let i = 0; i < changingSentences.length; i++) {
+      let changingSentence = changingSentences[i];
 
-            let indexInSentences = changingSentence.indexInSentences;
-            let currentLetterIndex = changingSentence.currentLetterIndex;
-            let sentence = sentences[indexInSentences];
-            let length = sentence.length;
-            let replacementSentence = changingSentence.replacementSentence;
-            // console.log(currentLetterIndex)
+      let indexInSentences = changingSentence.indexInSentences;
+      let currentLetterIndex = changingSentence.currentLetterIndex;
+      let sentence = sentences[indexInSentences];
+      let length = sentence.length;
+      let replacementSentence = changingSentence.replacementSentence;
 
 
-            if (currentLetterIndex < length) { //update letters
-                // console.log("updating letters")
-                
-                let replacementLetter = replacementSentence[currentLetterIndex];
+      if (currentLetterIndex < length) { //update letters
+        let replacementLetter = replacementSentence[currentLetterIndex];
 
-                let updatedSentence = sentence.substring(0, currentLetterIndex) + replacementLetter + sentence.substring(currentLetterIndex + 1);
+        let updatedSentence = sentence.substring(0, currentLetterIndex) + replacementLetter + sentence.substring(currentLetterIndex + 1);
 
-                sentences[indexInSentences] = updatedSentence;
-                // console.log(updatedSentence)
-                paragraph = sentences.join(" ");
-                // console.log(paragraph)
-                paragraphElement.textContent = paragraph;
-                changingSentence.currentLetterIndex++;
-                // changingSentence.currentLetterIndex = changingSentence.currentLetterIndex + 1;
+        sentences[indexInSentences] = updatedSentence;
+        paragraph = sentences.join(" ");
+        paragraphElement.textContent = paragraph;
+        changingSentence.currentLetterIndex++;
 
-            }
-            else { // find new sentence to replace
+      }
+      else { // find new sentence to replace
+        let replacementIndexInEntry = entry.indexOf(replacementSentence);
+        entryIndices[indexInSentences] = replacementIndexInEntry;
 
-                // update entry index for finished replaced sentence
-                // console.log(changingSentence, replacementSentence)
-                let replacementIndexInEntry = entry.indexOf(replacementSentence);
-                entryIndices[indexInSentences] = replacementIndexInEntry;
+        let newSentenceIndex;
 
-
-                let newSentenceIndex;
-
-                do {
-                    newSentenceIndex = Math.floor(Math.random() * sentences.length);
-                }
-                while (changingSentences.some(obj => {
-                    return obj.indexInSentences === newSentenceIndex;
-                }))
-                
-                let sentenceToChange = sentences[newSentenceIndex];
-                replacementSentence = findNewSentence(sentenceToChange);
-
-
-                changingSentence.indexInSentences = newSentenceIndex;
-                changingSentence.currentLetterIndex = 0;
-                changingSentence.replacementSentence = findNewSentence(replacementSentence);
-
-            // console.log("🛑 🛑 🛑 🛑 🛑 🛑")
+        do {
+          newSentenceIndex = Math.floor(Math.random() * sentences.length);
         }
+        while (changingSentences.some(obj => {
+          return obj.indexInSentences === newSentenceIndex;
+        }))
+
+        let sentenceToChange = sentences[newSentenceIndex];
+        replacementSentence = findNewSentence(sentenceToChange);
 
 
-
-
+        changingSentence.indexInSentences = newSentenceIndex;
+        changingSentence.currentLetterIndex = 0;
+        changingSentence.replacementSentence = findNewSentence(replacementSentence);
+      }
     }
     setTimeout(updateLetters, 100 + Math.random(50));
+  }
+  updateLetters();
 }
-
-updateLetters();
-}
-
 updateParagraph();
