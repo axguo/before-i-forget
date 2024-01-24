@@ -276,7 +276,7 @@ let sentences = [];
 let entryIndices = [];
 
 // populate sentences randomly
-for (let i = 0; i < 22; i++) {
+for (let i = 0; i < 20; i++) {
   let randomEntryIndex = Math.floor(Math.random() * entry.length);
   let randomEntry = entry[randomEntryIndex];
   if (!sentences.includes(randomEntry)) {
@@ -309,7 +309,7 @@ function findNewSentence(current) {
 
 
 // Pick random sentences to change
-for (let i = 0; i < 16; i++) {
+for (let i = 0; i < 10; i++) {
   // pick a sentence to change
   let indexToChange = Math.floor(Math.random() * sentences.length);
   let sentenceToChange = sentences[indexToChange];
