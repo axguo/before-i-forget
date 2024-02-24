@@ -11,7 +11,7 @@
     font-display: swap;
 }
 
-body {
+body, html {
     background: rgb(235 210 228);
     font-family: 'bpdots', 'Consolas', 'Courier New', Courier, monospace;
     font-size: 1em;
