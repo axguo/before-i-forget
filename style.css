@@ -156,19 +156,18 @@ body, html {
 @media only screen and (max-width: 400px) {
     .notepad-container {
       width: 90%;
-      border: none;
       margin: 20px auto;
+      min-width: 90vw;
     }
   
     .notepad {
-      width: 100%;
-      border: none;
+      width: 90%;
       margin: 0;
+      
     }
   
     .text-area {
       width: 100%;
-      border: none;
       border-left: 2px solid #7981e0;
       border-bottom: 2px solid #ffffff;
       border-right: 2px solid #ffffff;
