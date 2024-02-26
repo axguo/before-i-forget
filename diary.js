@@ -157,18 +157,3 @@ const entry = [
 // // Write the sorted array to a new file
 // const fs = require('fs');
 // fs.writeFileSync('diarySortedByLength.js', JSON.stringify(sortedByLength, null, 2));
-
-
-
-// const sentenceLengths = {};
-
-// for (const ent of entry) {
-//     const length = ent.length;
-//     if (sentenceLengths[length]) {
-//         sentenceLengths[length].push(ent)
-//     } else {
-//         sentenceLengths[length] = [ent];
-//     }
-// }
-
-// console.log(sentenceLengths)
