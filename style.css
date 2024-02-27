@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "bpdots";
-    src: url("BPdotsSquareBold.otf");
+    src: url("assets/BPdotsSquareBold.otf");
     font-weight: normal;
     font-display: swap;
 }
@@ -16,7 +16,7 @@ body, html {
     font-family: 'bpdots', 'Consolas', 'Courier New', Courier, monospace;
     font-size: 1em;
     color: #0d0da5;
-    cursor: url('cursor.png'), auto;
+    cursor: url('assets/cursor.png'), auto;
 }
 
 .notepad-container {
@@ -73,7 +73,7 @@ body, html {
     color: #0d0da5;
     padding: 1px 6px;
     margin-left: 2px;
-    cursor: url('cursor.png'), auto;
+    cursor: url('assets/cursor.png'), auto;
     font-weight: bold;
     font-size: 0.9em;
     width: 25px;

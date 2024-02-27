@@ -28,7 +28,7 @@ let sentences = [];
 let entryIndices = [];
 
 // populate sentences randomly
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 25; i++) {
   let randomEntryIndex = Math.floor(Math.random() * entry.length);
   let randomEntry = entry[randomEntryIndex];
   if (!sentences.includes(randomEntry)) {
